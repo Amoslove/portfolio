@@ -239,3 +239,66 @@
  }
 }
 
+@media(max-width:288px){
+ 
+  .nav img{
+    margin-left: 0 !important;
+    margin-right: .2rem !important;
+    flex-shrink: 0 !important;
+  }
+
+  .nav .nav-items{
+    padding-left: 0 !important;
+  }
+
+  .container .image img{
+    display: none;
+  }
+
+  .text-box{
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .text-box .paragraph{
+    width: 100% !important;
+  }
+
+  .text-box a{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem !important;
+    width: 100%;
+  }
+  .text-box a.download{
+    display: inline-block !important;
+    margin-top: 1rem;
+    font-size: 1rem !important;
+    /* padding: 0 !important; */
+  }
+
+  .socials{
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 0 !important;
+
+  }
+
+  .sec2 .my-skills{
+    padding: 0 !important;
+  }
+
+  main{
+    margin-top: 25rem;
+  }
+
+  .sec2 .container-content{
+    margin-bottom: 2rem !important;
+  }
+
+  .container-content .about-text{
+    width: 100% !important;
+  }
+ 
+}
