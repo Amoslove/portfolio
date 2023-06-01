@@ -202,8 +202,7 @@ section{
   margin-top: 2rem;
   margin-bottom: 3rem;
   line-height: 1.5;
-  initial-letter: 2px;
-  /* color: var(--light-ash); */
+
 }
 
 .social-acount{
@@ -281,10 +280,10 @@ section{
 }
 @keyframes animate{
   0%{
-    transform: translateX(-100%) scaleX(1);
+    transform: translateX(100%) scaleX(1);
   }
   100%{
-    transform: translateX(-100) scaleX(0);
+    transform: translateX(-100%) scaleX(1);
   }
 }
 
@@ -299,10 +298,10 @@ section{
 }
 @keyframes anima{
   100%{
-    transform: translateX(-100%) scaleX(1);
+    transform: translateX(100%) scaleX(1);
   }
-  110%{
-    transform: translateX(-100) scaleX(0);
+  100%{
+    transform: translateX(100%) scaleX(0);
   }
 }
 
